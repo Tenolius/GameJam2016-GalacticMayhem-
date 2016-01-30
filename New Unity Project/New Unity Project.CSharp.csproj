@@ -78,11 +78,16 @@
     <Compile Include="Assets\Game Jam Menu Template\Scripts\StartOptions.cs" />
     <Compile Include="Assets\Nebula Skyboxes\Scripts\MouseLook.cs" />
     <Compile Include="Assets\Nebula Skyboxes\Scripts\SmoothCameraOrbit.cs" />
+    <Compile Include="Assets\Scripts\Enemy\Enemy.cs" />
+    <Compile Include="Assets\Scripts\GameLogic.cs" />
+    <Compile Include="Assets\Scripts\GridLogic\ClickDetection.cs" />
+    <Compile Include="Assets\Scripts\GridLogic\GridObject.cs" />
     <Compile Include="Assets\Scripts\GridLogic\GridServiceInterface.cs" />
     <Compile Include="Assets\Scripts\SkyboxRotation.cs" />
     <Compile Include="Assets\ShaderForge\Example Assets\Scripts\EditorLabel.cs" />
     <Compile Include="Assets\ShaderForge\Example Assets\Scripts\EnableCameraDepthInForward.cs" />
     <Compile Include="Assets\ShaderForge\Example Assets\Scripts\SoftNormalsToVertexColor.cs" />
+    <Compile Include="Assets\Turret.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Game Jam Menu Template\Fonts\OpenSans\License!.txt" />

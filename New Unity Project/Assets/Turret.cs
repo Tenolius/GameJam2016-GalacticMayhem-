@@ -37,9 +37,8 @@ public class Turret : MonoBehaviour {
 		}
 	}
 
-	void OnParticleCollision(Collider other) {
-
-		if (other.gameObject.tag == "Enemy") {
+	void OnParticleCollision(GameObject other) {
+		if (other.tag == "Enemy") {
 			Debug.Log ("Shot enemy");
 		}
 	}
