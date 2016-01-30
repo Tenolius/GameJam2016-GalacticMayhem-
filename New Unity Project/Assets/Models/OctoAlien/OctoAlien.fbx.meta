@@ -1,0 +1,568 @@
+fileFormatVersion: 2
+guid: 6f9ded617ec2d454db305bf9751fe360
+timeCreated: 1454081595
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Head2
+    100002: Head3
+    100004: Head4
+    100006: HeadControl
+    100008: HeadRoot
+    100010: //RootNode
+    100012: OctoCollar
+    100014: OctoGroup
+    100016: OctoHead
+    100018: OctoTorso
+    100020: Tentacle01
+    100022: Tentacle1:Tentacle01
+    100024: Tentacle1:TentacleControl2
+    100026: Tentacle1:TentacleControl3
+    100028: Tentacle1:TentacleControl4
+    100030: Tentacle1:TentacleControl5
+    100032: Tentacle1:TentacleControl6
+    100034: Tentacle1:TentacleControl7
+    100036: Tentacle1:TentacleGroup
+    100038: Tentacle1:TentacleJoint2
+    100040: Tentacle1:TentacleJoint3
+    100042: Tentacle1:TentacleJoint4
+    100044: Tentacle1:TentacleJoint5
+    100046: Tentacle1:TentacleJoint6
+    100048: Tentacle1:TentacleJoint7
+    100050: Tentacle1:TentacleJoint8
+    100052: Tentacle1:TentacleJointRoot
+    100054: Tentacle1:TentacleMaster
+    100056: Tentacle2:Tentacle01
+    100058: Tentacle2:TentacleControl2
+    100060: Tentacle2:TentacleControl3
+    100062: Tentacle2:TentacleControl4
+    100064: Tentacle2:TentacleControl5
+    100066: Tentacle2:TentacleControl6
+    100068: Tentacle2:TentacleControl7
+    100070: Tentacle2:TentacleGroup
+    100072: Tentacle2:TentacleJoint2
+    100074: Tentacle2:TentacleJoint3
+    100076: Tentacle2:TentacleJoint4
+    100078: Tentacle2:TentacleJoint5
+    100080: Tentacle2:TentacleJoint6
+    100082: Tentacle2:TentacleJoint7
+    100084: Tentacle2:TentacleJoint8
+    100086: Tentacle2:TentacleJointRoot
+    100088: Tentacle2:TentacleMaster
+    100090: Tentacle3:Tentacle01
+    100092: Tentacle3:TentacleControl2
+    100094: Tentacle3:TentacleControl3
+    100096: Tentacle3:TentacleControl4
+    100098: Tentacle3:TentacleControl5
+    100100: Tentacle3:TentacleControl6
+    100102: Tentacle3:TentacleControl7
+    100104: Tentacle3:TentacleGroup
+    100106: Tentacle3:TentacleJoint2
+    100108: Tentacle3:TentacleJoint3
+    100110: Tentacle3:TentacleJoint4
+    100112: Tentacle3:TentacleJoint5
+    100114: Tentacle3:TentacleJoint6
+    100116: Tentacle3:TentacleJoint7
+    100118: Tentacle3:TentacleJoint8
+    100120: Tentacle3:TentacleJointRoot
+    100122: Tentacle3:TentacleMaster
+    100124: Tentacle4:Tentacle01
+    100126: Tentacle4:TentacleControl2
+    100128: Tentacle4:TentacleControl3
+    100130: Tentacle4:TentacleControl4
+    100132: Tentacle4:TentacleControl5
+    100134: Tentacle4:TentacleControl6
+    100136: Tentacle4:TentacleControl7
+    100138: Tentacle4:TentacleGroup
+    100140: Tentacle4:TentacleJoint2
+    100142: Tentacle4:TentacleJoint3
+    100144: Tentacle4:TentacleJoint4
+    100146: Tentacle4:TentacleJoint5
+    100148: Tentacle4:TentacleJoint6
+    100150: Tentacle4:TentacleJoint7
+    100152: Tentacle4:TentacleJoint8
+    100154: Tentacle4:TentacleJointRoot
+    100156: Tentacle4:TentacleMaster
+    100158: Tentacle5:Tentacle01
+    100160: Tentacle5:TentacleControl2
+    100162: Tentacle5:TentacleControl3
+    100164: Tentacle5:TentacleControl4
+    100166: Tentacle5:TentacleControl5
+    100168: Tentacle5:TentacleControl6
+    100170: Tentacle5:TentacleControl7
+    100172: Tentacle5:TentacleGroup
+    100174: Tentacle5:TentacleJoint2
+    100176: Tentacle5:TentacleJoint3
+    100178: Tentacle5:TentacleJoint4
+    100180: Tentacle5:TentacleJoint5
+    100182: Tentacle5:TentacleJoint6
+    100184: Tentacle5:TentacleJoint7
+    100186: Tentacle5:TentacleJoint8
+    100188: Tentacle5:TentacleJointRoot
+    100190: Tentacle5:TentacleMaster
+    100192: TentacleControl2
+    100194: TentacleControl3
+    100196: TentacleControl4
+    100198: TentacleControl5
+    100200: TentacleControl6
+    100202: TentacleControl7
+    100204: TentacleGroup01
+    100206: TentacleJoint2
+    100208: TentacleJoint3
+    100210: TentacleJoint4
+    100212: TentacleJoint5
+    100214: TentacleJoint6
+    100216: TentacleJoint7
+    100218: TentacleJoint8
+    100220: TentacleJointRoot
+    100222: TentacleMaster
+    400000: Head2
+    400002: Head3
+    400004: Head4
+    400006: HeadControl
+    400008: HeadRoot
+    400010: //RootNode
+    400012: OctoCollar
+    400014: OctoGroup
+    400016: OctoHead
+    400018: OctoTorso
+    400020: Tentacle01
+    400022: Tentacle1:Tentacle01
+    400024: Tentacle1:TentacleControl2
+    400026: Tentacle1:TentacleControl3
+    400028: Tentacle1:TentacleControl4
+    400030: Tentacle1:TentacleControl5
+    400032: Tentacle1:TentacleControl6
+    400034: Tentacle1:TentacleControl7
+    400036: Tentacle1:TentacleGroup
+    400038: Tentacle1:TentacleJoint2
+    400040: Tentacle1:TentacleJoint3
+    400042: Tentacle1:TentacleJoint4
+    400044: Tentacle1:TentacleJoint5
+    400046: Tentacle1:TentacleJoint6
+    400048: Tentacle1:TentacleJoint7
+    400050: Tentacle1:TentacleJoint8
+    400052: Tentacle1:TentacleJointRoot
+    400054: Tentacle1:TentacleMaster
+    400056: Tentacle2:Tentacle01
+    400058: Tentacle2:TentacleControl2
+    400060: Tentacle2:TentacleControl3
+    400062: Tentacle2:TentacleControl4
+    400064: Tentacle2:TentacleControl5
+    400066: Tentacle2:TentacleControl6
+    400068: Tentacle2:TentacleControl7
+    400070: Tentacle2:TentacleGroup
+    400072: Tentacle2:TentacleJoint2
+    400074: Tentacle2:TentacleJoint3
+    400076: Tentacle2:TentacleJoint4
+    400078: Tentacle2:TentacleJoint5
+    400080: Tentacle2:TentacleJoint6
+    400082: Tentacle2:TentacleJoint7
+    400084: Tentacle2:TentacleJoint8
+    400086: Tentacle2:TentacleJointRoot
+    400088: Tentacle2:TentacleMaster
+    400090: Tentacle3:Tentacle01
+    400092: Tentacle3:TentacleControl2
+    400094: Tentacle3:TentacleControl3
+    400096: Tentacle3:TentacleControl4
+    400098: Tentacle3:TentacleControl5
+    400100: Tentacle3:TentacleControl6
+    400102: Tentacle3:TentacleControl7
+    400104: Tentacle3:TentacleGroup
+    400106: Tentacle3:TentacleJoint2
+    400108: Tentacle3:TentacleJoint3
+    400110: Tentacle3:TentacleJoint4
+    400112: Tentacle3:TentacleJoint5
+    400114: Tentacle3:TentacleJoint6
+    400116: Tentacle3:TentacleJoint7
+    400118: Tentacle3:TentacleJoint8
+    400120: Tentacle3:TentacleJointRoot
+    400122: Tentacle3:TentacleMaster
+    400124: Tentacle4:Tentacle01
+    400126: Tentacle4:TentacleControl2
+    400128: Tentacle4:TentacleControl3
+    400130: Tentacle4:TentacleControl4
+    400132: Tentacle4:TentacleControl5
+    400134: Tentacle4:TentacleControl6
+    400136: Tentacle4:TentacleControl7
+    400138: Tentacle4:TentacleGroup
+    400140: Tentacle4:TentacleJoint2
+    400142: Tentacle4:TentacleJoint3
+    400144: Tentacle4:TentacleJoint4
+    400146: Tentacle4:TentacleJoint5
+    400148: Tentacle4:TentacleJoint6
+    400150: Tentacle4:TentacleJoint7
+    400152: Tentacle4:TentacleJoint8
+    400154: Tentacle4:TentacleJointRoot
+    400156: Tentacle4:TentacleMaster
+    400158: Tentacle5:Tentacle01
+    400160: Tentacle5:TentacleControl2
+    400162: Tentacle5:TentacleControl3
+    400164: Tentacle5:TentacleControl4
+    400166: Tentacle5:TentacleControl5
+    400168: Tentacle5:TentacleControl6
+    400170: Tentacle5:TentacleControl7
+    400172: Tentacle5:TentacleGroup
+    400174: Tentacle5:TentacleJoint2
+    400176: Tentacle5:TentacleJoint3
+    400178: Tentacle5:TentacleJoint4
+    400180: Tentacle5:TentacleJoint5
+    400182: Tentacle5:TentacleJoint6
+    400184: Tentacle5:TentacleJoint7
+    400186: Tentacle5:TentacleJoint8
+    400188: Tentacle5:TentacleJointRoot
+    400190: Tentacle5:TentacleMaster
+    400192: TentacleControl2
+    400194: TentacleControl3
+    400196: TentacleControl4
+    400198: TentacleControl5
+    400200: TentacleControl6
+    400202: TentacleControl7
+    400204: TentacleGroup01
+    400206: TentacleJoint2
+    400208: TentacleJoint3
+    400210: TentacleJoint4
+    400212: TentacleJoint5
+    400214: TentacleJoint6
+    400216: TentacleJoint7
+    400218: TentacleJoint8
+    400220: TentacleJointRoot
+    400222: TentacleMaster
+    2300000: OctoTorso
+    3300000: OctoTorso
+    4300000: Tentacle5:Tentacle01
+    4300002: Tentacle4:Tentacle01
+    4300004: Tentacle3:Tentacle01
+    4300006: Tentacle2:Tentacle01
+    4300008: Tentacle1:Tentacle01
+    4300010: Tentacle01
+    4300012: OctoTorso
+    4300014: OctoHead
+    4300016: OctoCollar
+    7400000: Idle
+    9500000: //RootNode
+    13700000: OctoCollar
+    13700002: OctoHead
+    13700004: Tentacle01
+    13700006: Tentacle1:Tentacle01
+    13700008: Tentacle2:Tentacle01
+    13700010: Tentacle3:Tentacle01
+    13700012: Tentacle4:Tentacle01
+    13700014: Tentacle5:Tentacle01
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 47
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: HeadControl
+        weight: 1
+      - path: HeadControl/HeadRoot
+        weight: 1
+      - path: HeadControl/HeadRoot/Head2
+        weight: 1
+      - path: HeadControl/HeadRoot/Head2/Head3
+        weight: 1
+      - path: HeadControl/HeadRoot/Head2/Head4
+        weight: 1
+      - path: OctoGroup
+        weight: 1
+      - path: OctoGroup/OctoHead
+        weight: 1
+      - path: OctoGroup/OctoHead/OctoCollar
+        weight: 1
+      - path: OctoGroup/OctoTorso
+        weight: 1
+      - path: Tentacle1:TentacleGroup
+        weight: 1
+      - path: Tentacle1:TentacleGroup/Tentacle1:Tentacle01
+        weight: 1
+      - path: Tentacle1:TentacleGroup/Tentacle1:TentacleMaster
+        weight: 1
+      - path: Tentacle1:TentacleGroup/Tentacle1:TentacleMaster/Tentacle1:TentacleJointRoot
+        weight: 1
+      - path: Tentacle1:TentacleGroup/Tentacle1:TentacleMaster/Tentacle1:TentacleJointRoot/Tentacle1:TentacleJoint2
+        weight: 1
+      - path: Tentacle1:TentacleGroup/Tentacle1:TentacleMaster/Tentacle1:TentacleJointRoot/Tentacle1:TentacleJoint2/Tentacle1:TentacleControl2
+        weight: 1
+      - path: Tentacle1:TentacleGroup/Tentacle1:TentacleMaster/Tentacle1:TentacleJointRoot/Tentacle1:TentacleJoint2/Tentacle1:TentacleJoint3
+        weight: 1
+      - path: Tentacle1:TentacleGroup/Tentacle1:TentacleMaster/Tentacle1:TentacleJointRoot/Tentacle1:TentacleJoint2/Tentacle1:TentacleJoint3/Tentacle1:TentacleControl3
+        weight: 1
+      - path: Tentacle1:TentacleGroup/Tentacle1:TentacleMaster/Tentacle1:TentacleJointRoot/Tentacle1:TentacleJoint2/Tentacle1:TentacleJoint3/Tentacle1:TentacleJoint4
+        weight: 1
+      - path: Tentacle1:TentacleGroup/Tentacle1:TentacleMaster/Tentacle1:TentacleJointRoot/Tentacle1:TentacleJoint2/Tentacle1:TentacleJoint3/Tentacle1:TentacleJoint4/Tentacle1:TentacleControl4
+        weight: 1
+      - path: Tentacle1:TentacleGroup/Tentacle1:TentacleMaster/Tentacle1:TentacleJointRoot/Tentacle1:TentacleJoint2/Tentacle1:TentacleJoint3/Tentacle1:TentacleJoint4/Tentacle1:TentacleJoint5
+        weight: 1
+      - path: Tentacle1:TentacleGroup/Tentacle1:TentacleMaster/Tentacle1:TentacleJointRoot/Tentacle1:TentacleJoint2/Tentacle1:TentacleJoint3/Tentacle1:TentacleJoint4/Tentacle1:TentacleJoint5/Tentacle1:TentacleControl5
+        weight: 1
+      - path: Tentacle1:TentacleGroup/Tentacle1:TentacleMaster/Tentacle1:TentacleJointRoot/Tentacle1:TentacleJoint2/Tentacle1:TentacleJoint3/Tentacle1:TentacleJoint4/Tentacle1:TentacleJoint5/Tentacle1:TentacleJoint6
+        weight: 1
+      - path: Tentacle1:TentacleGroup/Tentacle1:TentacleMaster/Tentacle1:TentacleJointRoot/Tentacle1:TentacleJoint2/Tentacle1:TentacleJoint3/Tentacle1:TentacleJoint4/Tentacle1:TentacleJoint5/Tentacle1:TentacleJoint6/Tentacle1:TentacleControl6
+        weight: 1
+      - path: Tentacle1:TentacleGroup/Tentacle1:TentacleMaster/Tentacle1:TentacleJointRoot/Tentacle1:TentacleJoint2/Tentacle1:TentacleJoint3/Tentacle1:TentacleJoint4/Tentacle1:TentacleJoint5/Tentacle1:TentacleJoint6/Tentacle1:TentacleJoint7
+        weight: 1
+      - path: Tentacle1:TentacleGroup/Tentacle1:TentacleMaster/Tentacle1:TentacleJointRoot/Tentacle1:TentacleJoint2/Tentacle1:TentacleJoint3/Tentacle1:TentacleJoint4/Tentacle1:TentacleJoint5/Tentacle1:TentacleJoint6/Tentacle1:TentacleJoint7/Tentacle1:TentacleControl7
+        weight: 1
+      - path: Tentacle1:TentacleGroup/Tentacle1:TentacleMaster/Tentacle1:TentacleJointRoot/Tentacle1:TentacleJoint2/Tentacle1:TentacleJoint3/Tentacle1:TentacleJoint4/Tentacle1:TentacleJoint5/Tentacle1:TentacleJoint6/Tentacle1:TentacleJoint7/Tentacle1:TentacleJoint8
+        weight: 1
+      - path: Tentacle2:TentacleGroup
+        weight: 1
+      - path: Tentacle2:TentacleGroup/Tentacle2:Tentacle01
+        weight: 1
+      - path: Tentacle2:TentacleGroup/Tentacle2:TentacleMaster
+        weight: 1
+      - path: Tentacle2:TentacleGroup/Tentacle2:TentacleMaster/Tentacle2:TentacleJointRoot
+        weight: 1
+      - path: Tentacle2:TentacleGroup/Tentacle2:TentacleMaster/Tentacle2:TentacleJointRoot/Tentacle2:TentacleJoint2
+        weight: 1
+      - path: Tentacle2:TentacleGroup/Tentacle2:TentacleMaster/Tentacle2:TentacleJointRoot/Tentacle2:TentacleJoint2/Tentacle2:TentacleControl2
+        weight: 1
+      - path: Tentacle2:TentacleGroup/Tentacle2:TentacleMaster/Tentacle2:TentacleJointRoot/Tentacle2:TentacleJoint2/Tentacle2:TentacleJoint3
+        weight: 1
+      - path: Tentacle2:TentacleGroup/Tentacle2:TentacleMaster/Tentacle2:TentacleJointRoot/Tentacle2:TentacleJoint2/Tentacle2:TentacleJoint3/Tentacle2:TentacleControl3
+        weight: 1
+      - path: Tentacle2:TentacleGroup/Tentacle2:TentacleMaster/Tentacle2:TentacleJointRoot/Tentacle2:TentacleJoint2/Tentacle2:TentacleJoint3/Tentacle2:TentacleJoint4
+        weight: 1
+      - path: Tentacle2:TentacleGroup/Tentacle2:TentacleMaster/Tentacle2:TentacleJointRoot/Tentacle2:TentacleJoint2/Tentacle2:TentacleJoint3/Tentacle2:TentacleJoint4/Tentacle2:TentacleControl4
+        weight: 1
+      - path: Tentacle2:TentacleGroup/Tentacle2:TentacleMaster/Tentacle2:TentacleJointRoot/Tentacle2:TentacleJoint2/Tentacle2:TentacleJoint3/Tentacle2:TentacleJoint4/Tentacle2:TentacleJoint5
+        weight: 1
+      - path: Tentacle2:TentacleGroup/Tentacle2:TentacleMaster/Tentacle2:TentacleJointRoot/Tentacle2:TentacleJoint2/Tentacle2:TentacleJoint3/Tentacle2:TentacleJoint4/Tentacle2:TentacleJoint5/Tentacle2:TentacleControl5
+        weight: 1
+      - path: Tentacle2:TentacleGroup/Tentacle2:TentacleMaster/Tentacle2:TentacleJointRoot/Tentacle2:TentacleJoint2/Tentacle2:TentacleJoint3/Tentacle2:TentacleJoint4/Tentacle2:TentacleJoint5/Tentacle2:TentacleJoint6
+        weight: 1
+      - path: Tentacle2:TentacleGroup/Tentacle2:TentacleMaster/Tentacle2:TentacleJointRoot/Tentacle2:TentacleJoint2/Tentacle2:TentacleJoint3/Tentacle2:TentacleJoint4/Tentacle2:TentacleJoint5/Tentacle2:TentacleJoint6/Tentacle2:TentacleControl6
+        weight: 1
+      - path: Tentacle2:TentacleGroup/Tentacle2:TentacleMaster/Tentacle2:TentacleJointRoot/Tentacle2:TentacleJoint2/Tentacle2:TentacleJoint3/Tentacle2:TentacleJoint4/Tentacle2:TentacleJoint5/Tentacle2:TentacleJoint6/Tentacle2:TentacleJoint7
+        weight: 1
+      - path: Tentacle2:TentacleGroup/Tentacle2:TentacleMaster/Tentacle2:TentacleJointRoot/Tentacle2:TentacleJoint2/Tentacle2:TentacleJoint3/Tentacle2:TentacleJoint4/Tentacle2:TentacleJoint5/Tentacle2:TentacleJoint6/Tentacle2:TentacleJoint7/Tentacle2:TentacleControl7
+        weight: 1
+      - path: Tentacle2:TentacleGroup/Tentacle2:TentacleMaster/Tentacle2:TentacleJointRoot/Tentacle2:TentacleJoint2/Tentacle2:TentacleJoint3/Tentacle2:TentacleJoint4/Tentacle2:TentacleJoint5/Tentacle2:TentacleJoint6/Tentacle2:TentacleJoint7/Tentacle2:TentacleJoint8
+        weight: 1
+      - path: Tentacle3:TentacleGroup
+        weight: 1
+      - path: Tentacle3:TentacleGroup/Tentacle3:Tentacle01
+        weight: 1
+      - path: Tentacle3:TentacleGroup/Tentacle3:TentacleMaster
+        weight: 1
+      - path: Tentacle3:TentacleGroup/Tentacle3:TentacleMaster/Tentacle3:TentacleJointRoot
+        weight: 1
+      - path: Tentacle3:TentacleGroup/Tentacle3:TentacleMaster/Tentacle3:TentacleJointRoot/Tentacle3:TentacleJoint2
+        weight: 1
+      - path: Tentacle3:TentacleGroup/Tentacle3:TentacleMaster/Tentacle3:TentacleJointRoot/Tentacle3:TentacleJoint2/Tentacle3:TentacleControl2
+        weight: 1
+      - path: Tentacle3:TentacleGroup/Tentacle3:TentacleMaster/Tentacle3:TentacleJointRoot/Tentacle3:TentacleJoint2/Tentacle3:TentacleJoint3
+        weight: 1
+      - path: Tentacle3:TentacleGroup/Tentacle3:TentacleMaster/Tentacle3:TentacleJointRoot/Tentacle3:TentacleJoint2/Tentacle3:TentacleJoint3/Tentacle3:TentacleControl3
+        weight: 1
+      - path: Tentacle3:TentacleGroup/Tentacle3:TentacleMaster/Tentacle3:TentacleJointRoot/Tentacle3:TentacleJoint2/Tentacle3:TentacleJoint3/Tentacle3:TentacleJoint4
+        weight: 1
+      - path: Tentacle3:TentacleGroup/Tentacle3:TentacleMaster/Tentacle3:TentacleJointRoot/Tentacle3:TentacleJoint2/Tentacle3:TentacleJoint3/Tentacle3:TentacleJoint4/Tentacle3:TentacleControl4
+        weight: 1
+      - path: Tentacle3:TentacleGroup/Tentacle3:TentacleMaster/Tentacle3:TentacleJointRoot/Tentacle3:TentacleJoint2/Tentacle3:TentacleJoint3/Tentacle3:TentacleJoint4/Tentacle3:TentacleJoint5
+        weight: 1
+      - path: Tentacle3:TentacleGroup/Tentacle3:TentacleMaster/Tentacle3:TentacleJointRoot/Tentacle3:TentacleJoint2/Tentacle3:TentacleJoint3/Tentacle3:TentacleJoint4/Tentacle3:TentacleJoint5/Tentacle3:TentacleControl5
+        weight: 1
+      - path: Tentacle3:TentacleGroup/Tentacle3:TentacleMaster/Tentacle3:TentacleJointRoot/Tentacle3:TentacleJoint2/Tentacle3:TentacleJoint3/Tentacle3:TentacleJoint4/Tentacle3:TentacleJoint5/Tentacle3:TentacleJoint6
+        weight: 1
+      - path: Tentacle3:TentacleGroup/Tentacle3:TentacleMaster/Tentacle3:TentacleJointRoot/Tentacle3:TentacleJoint2/Tentacle3:TentacleJoint3/Tentacle3:TentacleJoint4/Tentacle3:TentacleJoint5/Tentacle3:TentacleJoint6/Tentacle3:TentacleControl6
+        weight: 1
+      - path: Tentacle3:TentacleGroup/Tentacle3:TentacleMaster/Tentacle3:TentacleJointRoot/Tentacle3:TentacleJoint2/Tentacle3:TentacleJoint3/Tentacle3:TentacleJoint4/Tentacle3:TentacleJoint5/Tentacle3:TentacleJoint6/Tentacle3:TentacleJoint7
+        weight: 1
+      - path: Tentacle3:TentacleGroup/Tentacle3:TentacleMaster/Tentacle3:TentacleJointRoot/Tentacle3:TentacleJoint2/Tentacle3:TentacleJoint3/Tentacle3:TentacleJoint4/Tentacle3:TentacleJoint5/Tentacle3:TentacleJoint6/Tentacle3:TentacleJoint7/Tentacle3:TentacleControl7
+        weight: 1
+      - path: Tentacle3:TentacleGroup/Tentacle3:TentacleMaster/Tentacle3:TentacleJointRoot/Tentacle3:TentacleJoint2/Tentacle3:TentacleJoint3/Tentacle3:TentacleJoint4/Tentacle3:TentacleJoint5/Tentacle3:TentacleJoint6/Tentacle3:TentacleJoint7/Tentacle3:TentacleJoint8
+        weight: 1
+      - path: Tentacle4:TentacleGroup
+        weight: 1
+      - path: Tentacle4:TentacleGroup/Tentacle4:Tentacle01
+        weight: 1
+      - path: Tentacle4:TentacleGroup/Tentacle4:TentacleMaster
+        weight: 1
+      - path: Tentacle4:TentacleGroup/Tentacle4:TentacleMaster/Tentacle4:TentacleJointRoot
+        weight: 1
+      - path: Tentacle4:TentacleGroup/Tentacle4:TentacleMaster/Tentacle4:TentacleJointRoot/Tentacle4:TentacleJoint2
+        weight: 1
+      - path: Tentacle4:TentacleGroup/Tentacle4:TentacleMaster/Tentacle4:TentacleJointRoot/Tentacle4:TentacleJoint2/Tentacle4:TentacleControl2
+        weight: 1
+      - path: Tentacle4:TentacleGroup/Tentacle4:TentacleMaster/Tentacle4:TentacleJointRoot/Tentacle4:TentacleJoint2/Tentacle4:TentacleJoint3
+        weight: 1
+      - path: Tentacle4:TentacleGroup/Tentacle4:TentacleMaster/Tentacle4:TentacleJointRoot/Tentacle4:TentacleJoint2/Tentacle4:TentacleJoint3/Tentacle4:TentacleControl3
+        weight: 1
+      - path: Tentacle4:TentacleGroup/Tentacle4:TentacleMaster/Tentacle4:TentacleJointRoot/Tentacle4:TentacleJoint2/Tentacle4:TentacleJoint3/Tentacle4:TentacleJoint4
+        weight: 1
+      - path: Tentacle4:TentacleGroup/Tentacle4:TentacleMaster/Tentacle4:TentacleJointRoot/Tentacle4:TentacleJoint2/Tentacle4:TentacleJoint3/Tentacle4:TentacleJoint4/Tentacle4:TentacleControl4
+        weight: 1
+      - path: Tentacle4:TentacleGroup/Tentacle4:TentacleMaster/Tentacle4:TentacleJointRoot/Tentacle4:TentacleJoint2/Tentacle4:TentacleJoint3/Tentacle4:TentacleJoint4/Tentacle4:TentacleJoint5
+        weight: 1
+      - path: Tentacle4:TentacleGroup/Tentacle4:TentacleMaster/Tentacle4:TentacleJointRoot/Tentacle4:TentacleJoint2/Tentacle4:TentacleJoint3/Tentacle4:TentacleJoint4/Tentacle4:TentacleJoint5/Tentacle4:TentacleControl5
+        weight: 1
+      - path: Tentacle4:TentacleGroup/Tentacle4:TentacleMaster/Tentacle4:TentacleJointRoot/Tentacle4:TentacleJoint2/Tentacle4:TentacleJoint3/Tentacle4:TentacleJoint4/Tentacle4:TentacleJoint5/Tentacle4:TentacleJoint6
+        weight: 1
+      - path: Tentacle4:TentacleGroup/Tentacle4:TentacleMaster/Tentacle4:TentacleJointRoot/Tentacle4:TentacleJoint2/Tentacle4:TentacleJoint3/Tentacle4:TentacleJoint4/Tentacle4:TentacleJoint5/Tentacle4:TentacleJoint6/Tentacle4:TentacleControl6
+        weight: 1
+      - path: Tentacle4:TentacleGroup/Tentacle4:TentacleMaster/Tentacle4:TentacleJointRoot/Tentacle4:TentacleJoint2/Tentacle4:TentacleJoint3/Tentacle4:TentacleJoint4/Tentacle4:TentacleJoint5/Tentacle4:TentacleJoint6/Tentacle4:TentacleJoint7
+        weight: 1
+      - path: Tentacle4:TentacleGroup/Tentacle4:TentacleMaster/Tentacle4:TentacleJointRoot/Tentacle4:TentacleJoint2/Tentacle4:TentacleJoint3/Tentacle4:TentacleJoint4/Tentacle4:TentacleJoint5/Tentacle4:TentacleJoint6/Tentacle4:TentacleJoint7/Tentacle4:TentacleControl7
+        weight: 1
+      - path: Tentacle4:TentacleGroup/Tentacle4:TentacleMaster/Tentacle4:TentacleJointRoot/Tentacle4:TentacleJoint2/Tentacle4:TentacleJoint3/Tentacle4:TentacleJoint4/Tentacle4:TentacleJoint5/Tentacle4:TentacleJoint6/Tentacle4:TentacleJoint7/Tentacle4:TentacleJoint8
+        weight: 1
+      - path: Tentacle5:TentacleGroup
+        weight: 1
+      - path: Tentacle5:TentacleGroup/Tentacle5:Tentacle01
+        weight: 1
+      - path: Tentacle5:TentacleGroup/Tentacle5:TentacleMaster
+        weight: 1
+      - path: Tentacle5:TentacleGroup/Tentacle5:TentacleMaster/Tentacle5:TentacleJointRoot
+        weight: 1
+      - path: Tentacle5:TentacleGroup/Tentacle5:TentacleMaster/Tentacle5:TentacleJointRoot/Tentacle5:TentacleJoint2
+        weight: 1
+      - path: Tentacle5:TentacleGroup/Tentacle5:TentacleMaster/Tentacle5:TentacleJointRoot/Tentacle5:TentacleJoint2/Tentacle5:TentacleControl2
+        weight: 1
+      - path: Tentacle5:TentacleGroup/Tentacle5:TentacleMaster/Tentacle5:TentacleJointRoot/Tentacle5:TentacleJoint2/Tentacle5:TentacleJoint3
+        weight: 1
+      - path: Tentacle5:TentacleGroup/Tentacle5:TentacleMaster/Tentacle5:TentacleJointRoot/Tentacle5:TentacleJoint2/Tentacle5:TentacleJoint3/Tentacle5:TentacleControl3
+        weight: 1
+      - path: Tentacle5:TentacleGroup/Tentacle5:TentacleMaster/Tentacle5:TentacleJointRoot/Tentacle5:TentacleJoint2/Tentacle5:TentacleJoint3/Tentacle5:TentacleJoint4
+        weight: 1
+      - path: Tentacle5:TentacleGroup/Tentacle5:TentacleMaster/Tentacle5:TentacleJointRoot/Tentacle5:TentacleJoint2/Tentacle5:TentacleJoint3/Tentacle5:TentacleJoint4/Tentacle5:TentacleControl4
+        weight: 1
+      - path: Tentacle5:TentacleGroup/Tentacle5:TentacleMaster/Tentacle5:TentacleJointRoot/Tentacle5:TentacleJoint2/Tentacle5:TentacleJoint3/Tentacle5:TentacleJoint4/Tentacle5:TentacleJoint5
+        weight: 1
+      - path: Tentacle5:TentacleGroup/Tentacle5:TentacleMaster/Tentacle5:TentacleJointRoot/Tentacle5:TentacleJoint2/Tentacle5:TentacleJoint3/Tentacle5:TentacleJoint4/Tentacle5:TentacleJoint5/Tentacle5:TentacleControl5
+        weight: 1
+      - path: Tentacle5:TentacleGroup/Tentacle5:TentacleMaster/Tentacle5:TentacleJointRoot/Tentacle5:TentacleJoint2/Tentacle5:TentacleJoint3/Tentacle5:TentacleJoint4/Tentacle5:TentacleJoint5/Tentacle5:TentacleJoint6
+        weight: 1
+      - path: Tentacle5:TentacleGroup/Tentacle5:TentacleMaster/Tentacle5:TentacleJointRoot/Tentacle5:TentacleJoint2/Tentacle5:TentacleJoint3/Tentacle5:TentacleJoint4/Tentacle5:TentacleJoint5/Tentacle5:TentacleJoint6/Tentacle5:TentacleControl6
+        weight: 1
+      - path: Tentacle5:TentacleGroup/Tentacle5:TentacleMaster/Tentacle5:TentacleJointRoot/Tentacle5:TentacleJoint2/Tentacle5:TentacleJoint3/Tentacle5:TentacleJoint4/Tentacle5:TentacleJoint5/Tentacle5:TentacleJoint6/Tentacle5:TentacleJoint7
+        weight: 1
+      - path: Tentacle5:TentacleGroup/Tentacle5:TentacleMaster/Tentacle5:TentacleJointRoot/Tentacle5:TentacleJoint2/Tentacle5:TentacleJoint3/Tentacle5:TentacleJoint4/Tentacle5:TentacleJoint5/Tentacle5:TentacleJoint6/Tentacle5:TentacleJoint7/Tentacle5:TentacleControl7
+        weight: 1
+      - path: Tentacle5:TentacleGroup/Tentacle5:TentacleMaster/Tentacle5:TentacleJointRoot/Tentacle5:TentacleJoint2/Tentacle5:TentacleJoint3/Tentacle5:TentacleJoint4/Tentacle5:TentacleJoint5/Tentacle5:TentacleJoint6/Tentacle5:TentacleJoint7/Tentacle5:TentacleJoint8
+        weight: 1
+      - path: TentacleGroup01
+        weight: 1
+      - path: TentacleGroup01/Tentacle01
+        weight: 1
+      - path: TentacleGroup01/TentacleMaster
+        weight: 1
+      - path: TentacleGroup01/TentacleMaster/TentacleJointRoot
+        weight: 1
+      - path: TentacleGroup01/TentacleMaster/TentacleJointRoot/TentacleJoint2
+        weight: 1
+      - path: TentacleGroup01/TentacleMaster/TentacleJointRoot/TentacleJoint2/TentacleControl2
+        weight: 1
+      - path: TentacleGroup01/TentacleMaster/TentacleJointRoot/TentacleJoint2/TentacleJoint3
+        weight: 1
+      - path: TentacleGroup01/TentacleMaster/TentacleJointRoot/TentacleJoint2/TentacleJoint3/TentacleControl3
+        weight: 1
+      - path: TentacleGroup01/TentacleMaster/TentacleJointRoot/TentacleJoint2/TentacleJoint3/TentacleJoint4
+        weight: 1
+      - path: TentacleGroup01/TentacleMaster/TentacleJointRoot/TentacleJoint2/TentacleJoint3/TentacleJoint4/TentacleControl4
+        weight: 1
+      - path: TentacleGroup01/TentacleMaster/TentacleJointRoot/TentacleJoint2/TentacleJoint3/TentacleJoint4/TentacleJoint5
+        weight: 1
+      - path: TentacleGroup01/TentacleMaster/TentacleJointRoot/TentacleJoint2/TentacleJoint3/TentacleJoint4/TentacleJoint5/TentacleControl5
+        weight: 1
+      - path: TentacleGroup01/TentacleMaster/TentacleJointRoot/TentacleJoint2/TentacleJoint3/TentacleJoint4/TentacleJoint5/TentacleJoint6
+        weight: 1
+      - path: TentacleGroup01/TentacleMaster/TentacleJointRoot/TentacleJoint2/TentacleJoint3/TentacleJoint4/TentacleJoint5/TentacleJoint6/TentacleControl6
+        weight: 1
+      - path: TentacleGroup01/TentacleMaster/TentacleJointRoot/TentacleJoint2/TentacleJoint3/TentacleJoint4/TentacleJoint5/TentacleJoint6/TentacleJoint7
+        weight: 1
+      - path: TentacleGroup01/TentacleMaster/TentacleJointRoot/TentacleJoint2/TentacleJoint3/TentacleJoint4/TentacleJoint5/TentacleJoint6/TentacleJoint7/TentacleControl7
+        weight: 1
+      - path: TentacleGroup01/TentacleMaster/TentacleJointRoot/TentacleJoint2/TentacleJoint3/TentacleJoint4/TentacleJoint5/TentacleJoint6/TentacleJoint7/TentacleJoint8
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 90
+    normalImportMode: 1
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
