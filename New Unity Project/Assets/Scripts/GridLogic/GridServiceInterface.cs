@@ -11,13 +11,15 @@ public interface IGridService
      */
     int GetNumberOfRows();
     int GetNumberOfColumns();
+    double GetTop(); // is is similar to top in CSS, it is the y position where the grid starts
+    double GetLeft(); // same case, similiar to CSS, it is the x position where the grid ends
 
     /**
      * BASIC TILE INFORMATION
      * this can be used for calculating size of objects with respect to the grid itself
      */
-    float GetTileWidth();
-    float GetTileHeight();
+    double GetTileWidth();
+    double GetTileHeight();
 
     /**
      * This method will get the location of a sprite in the map,
@@ -59,12 +61,17 @@ public interface IGridService
      * YOU SHOULDN'T BE USING THIS METHOD, IT IS INEFICIENT AND HAS A HUGE OVERHEAD
      * ALWAYS TRY TO USE THE ONE ABOVE
      */
-    void UpdateSpriteLocation(ISprite sprite, float x, float y);
+    void UpdateSpriteLocation(ISprite sprite, double x, double y);
+
+    /**
+     * Removes a sprite from the grid
+     */
+    void RemoveSprite(ISprite sprite);
 
     /**
      * It will translate the XY location of an object to a ilocation on the grid
      */
-    ILocation TranslateXYLocationToGridLocation(float x, float y);
+    ILocation TranslateXYLocationToGridLocation(double x, double y);
 }
 
 public interface ISprite
