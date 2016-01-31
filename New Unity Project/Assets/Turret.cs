@@ -4,6 +4,7 @@ using System.Collections;
 public class Turret : MonoBehaviour {
 
 	private int health = 200;
+	private int damage = 25;
 
 	// Use this for initialization
 	void Start () {
@@ -40,6 +41,9 @@ public class Turret : MonoBehaviour {
 	void OnParticleCollision(GameObject other) {
 		if (other.tag == "Enemy") {
 			Debug.Log ("Shot enemy");
+			Enemy script = other.GetComponent<Enemy> ();
+			script.hit (damage);
+
 		}
 	}
 

@@ -10,6 +10,9 @@ public class Enemy : MonoBehaviour {
 	float moveSpeed;
 	private int damage = 5;
 	private bool movingForward;
+	private int health;
+	private object _lock;
+
 
 	// Use this for initialization
 	void Start () {
@@ -19,6 +22,8 @@ public class Enemy : MonoBehaviour {
 		startPoint = transform.position;
 		startTime = Time.time;
 		movingForward = true;
+		health = 100;
+		_lock = new object ();
 
 		//transform.position = Vector3 (0, 0, 0);
 	}
@@ -46,6 +51,16 @@ public class Enemy : MonoBehaviour {
 
 	public void resumeMovement() {
 		movingForward = true;
+	}
+
+	public void hit(int damage) {
+		lock (_lock) {
+			health -= damage;
+			Debug.Log (health);
+			if (health <= 0) {
+				Destroy (gameObject);
+			}
+		}
 	}
 
 
