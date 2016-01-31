@@ -8,8 +8,11 @@ public class GridObject : MonoBehaviour {
     public Texture textureDiffuseUnselect;
     public Texture textureEmissionUnselect;
 
+    public Texture textureDiffuseOver;
+    public Texture textureEmissionOver;
+
     public ClickDetection[] clickDetectionPanels;
-    private GameObject hCube;
+    public GameObject hCube;
 
     public Vector3 hCubeCoordinates;
 
@@ -32,25 +35,26 @@ public class GridObject : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        SwitchColour(planeNum,textureDiffuseSelect,textureEmissionSelect,textureDiffuseUnselect,textureEmissionUnselect);
-        MoveHighlightCube();
+        //SwitchColour(planeNum,textureDiffuseSelect,textureEmissionSelect,textureDiffuseUnselect,textureEmissionUnselect);
+        //SwitchColour(planeOver,textureEmissionOver,textureEmissionOver,textureDiffuseUnselect,textureEmissionUnselect);
+        //MoveHighlightCube();
         //Debug.Log(gridCoordinates);
 	}
 
-    void SwitchColour(int[] plane, Texture currentDiffuse, Texture currentEmission, Texture prevDiffuse, Texture prevEmission){
-        if (plane.Length == 1){
+    public void SwitchColour(int[] plane, Texture currentDiffuse, Texture currentEmission, Texture prevDiffuse, Texture prevEmission){
+        /*if (plane.Length == 1){
             clickDetectionPanels[plane[0]].gameObject.GetComponent<Renderer>().material.SetTexture("_MainTex", currentDiffuse);
             clickDetectionPanels[plane[0]].gameObject.GetComponent<Renderer>().material.SetTexture("_Emission", currentEmission);
-        } else {
+        } else {*/
             clickDetectionPanels[plane[0]].gameObject.GetComponent<Renderer>().material.SetTexture("_MainTex", currentDiffuse);
             clickDetectionPanels[plane[0]].gameObject.GetComponent<Renderer>().material.SetTexture("_Emission", currentEmission);
             clickDetectionPanels[plane[1]].gameObject.GetComponent<Renderer>().material.SetTexture("_MainTex", prevDiffuse);
             clickDetectionPanels[plane[1]].gameObject.GetComponent<Renderer>().material.SetTexture("_Emission", prevEmission);
-        }
+        //}
         //Debug.Log("Name: " + clickDetectionPanels[cIndex].name + " id: "+ cIndex + ", previd: " + pIndex);
     }
 
-    void MoveHighlightCube(){
+    public void MoveHighlightCube(){
         hCube.transform.position = hCubeCoordinates;
     }
 }
