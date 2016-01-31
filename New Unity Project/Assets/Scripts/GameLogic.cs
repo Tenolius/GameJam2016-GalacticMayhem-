@@ -10,8 +10,8 @@ public class GameLogic : MonoBehaviour {
         //Instantiate(highlightCube,new Vector3(-10.48861f, 8.014994f, -21.68f),Quaternion.identity);
 
 		//Spawn enemies
-		GameObject enemy1 = Instantiate(Resources.Load("Enemy")) as GameObject;
-		enemy1.transform.position = new Vector3(22, -7, 13);
+		//GameObject enemy1 = Instantiate(Resources.Load("Enemy")) as GameObject;
+		//enemy1.transform.position = new Vector3(22, -7, 13);
 	}
 	
 	// Update is called once per frame
