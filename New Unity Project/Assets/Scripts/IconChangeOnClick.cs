@@ -21,6 +21,7 @@ public class IconChangeOnClick : MonoBehaviour
         if (Input.GetMouseButtonDown(0)) // If left mouse button pressed
         {
             SpriteChange(); // call method to change sprite
+            Debug.Log("potato");
         }
     }
 
